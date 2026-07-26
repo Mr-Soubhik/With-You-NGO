@@ -76,7 +76,7 @@ export default function StatsBar({ selectedCurrency }) {
                     Verified
                   </span>
                 </div>
-                <h3 className="text-3xl font-extrabold font-heading text-emerald-400 mb-1 tracking-tight">
+                <h3 className="metric-number text-3xl font-extrabold font-heading text-emerald-400 mb-1 tracking-tight">
                   {stat.value}
                 </h3>
                 <p className="text-sm font-bold text-slate-200 mb-2">{stat.label}</p>
