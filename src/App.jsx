@@ -46,7 +46,7 @@ export default function App() {
       />
 
       {/* Main Sections */}
-      <main className="pt-20 md:pt-24">
+      <main className="pt-20">
         <Hero 
           onOpenDonate={() => handleOpenDonate()}
           onOpenVolunteer={() => setVolunteerModalOpen(true)}

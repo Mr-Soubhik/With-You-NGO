@@ -5,7 +5,7 @@ export default function Hero({ onOpenDonate, onOpenVolunteer }) {
   const [videoOpen, setVideoOpen] = useState(false);
 
   return (
-    <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden bg-gradient-to-b from-emerald-900/5 via-slate-50 to-white">
+    <section className="relative pt-6 pb-16 md:pt-10 md:pb-24 overflow-hidden bg-gradient-to-b from-emerald-900/5 via-slate-50 to-white">
       {/* Background ambient light effects */}
       <div className="absolute top-10 left-1/4 w-96 h-96 bg-emerald-400/10 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute bottom-10 right-10 w-96 h-96 bg-teal-400/10 rounded-full blur-3xl pointer-events-none"></div>
